@@ -1,0 +1,49 @@
+makes:
+
+  artware-city:
+    description: |
+      Welcome to Artware City! Stroll down Memory Lane, right onto Hard Disk Drive.
+    link: https://christophe.vg/makes/Artware-City
+    image: https://christophe.vg/makes/images/header/artware-city.jpeg
+    instagram: https://www.instagram.com/p/C82mljKA0xl/
+    when: 30 june 2024
+    
+  super-mario-block:
+    description: |
+      Nobody knows what’s inside the Super Mario Question Mark Block… until you open it!
+    link: https://christophe.vg/makes/Super-Mario-Question-Mark-Block
+    image: https://christophe.vg/makes/images/header/super-mario-question-mark-block.jpeg
+    instagram: https://www.instagram.com/p/C5-TPsUK2u2/
+    when: 20 april 2024
+
+  resin-in-wood-coasters:
+    description: |
+      V for Vendetta? No, V for a Very important Queen V. Birthdays are a great
+      excuse to experiment with new materials and techniques: Resin in wood!
+    link: https://christophe.vg/makes/Resin-in-Wood-Coasters
+    image: https://christophe.vg/makes/images/header/resin-in-wood-coasters.jpeg
+    when: 14 march 2024
+
+  wooden-globe:
+    description: |
+      The world is never enough for best of friends. Still, this combination of
+      wood and eva foam will have to do.
+    link: https://christophe.vg/makes/Wooden-Globe
+    image: https://christophe.vg/makes/images/header/wooden-globe.jpeg
+    when: 4 september 2022
+  
+  deatomizer:
+    description: |
+      A boy in black needs a decent weapon, and I need less excuses to build a
+      true Series 4 De-Atomizer.
+    link: https://christophe.vg/makes/Deatomizer
+    image: https://christophe.vg/makes/images/header/deatomizer.jpeg
+    when: 17 september 2021
+  
+  padel-racket:
+    description: |
+      If padel rackets are basically made out of eva foam, this must be an ace
+      for my dear old friend.
+    link: https://christophe.vg/makes/Padel-racket
+    image: https://christophe.vg/makes/images/header/padel-racket.jpeg
+    when: 27 august 2021

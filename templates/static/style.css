@@ -1,0 +1,16 @@
+img.logo {
+  max-width: 60px;
+  margin-right: 10px;
+}
+
+.appimage {
+  min-height:225px;
+  background-image:url("/make-default.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn:hover .bi-instagram {
+  color: white;
+}

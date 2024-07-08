@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 
+from pathlib import Path
+
 import yaml
 
 app = Flask(
@@ -11,7 +13,7 @@ app = Flask(
 
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
-with open("makes.yaml") as fp:
+with open(Path(__file__).parent / "makes.yaml") as fp:
   config = yaml.safe_load(fp)
 
 @app.route("/")

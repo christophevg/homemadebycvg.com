@@ -1,49 +1,106 @@
 makes:
 
   artware-city:
+    title: Artware City
     description: |
-      Welcome to Artware City! Stroll down Memory Lane, right onto Hard Disk Drive.
-    link: https://christophe.vg/makes/Artware-City
+      Welcome to Artware City! Stroll down Memory Lane, right onto Hard Disk
+      Drive.  
+      35 years of hardware suddenly became a city full of memories.
+    info: https://christophe.vg/makes/Artware-City
     image: https://christophe.vg/makes/images/header/artware-city.jpeg
     instagram: https://www.instagram.com/p/C82mljKA0xl/
     when: 30 june 2024
     
   super-mario-block:
+    title: Super Mario Question Mark Block
     description: |
       Nobody knows what’s inside the Super Mario Question Mark Block… until you open it!
-    link: https://christophe.vg/makes/Super-Mario-Question-Mark-Block
+    info: https://christophe.vg/makes/Super-Mario-Question-Mark-Block
     image: https://christophe.vg/makes/images/header/super-mario-question-mark-block.jpeg
     instagram: https://www.instagram.com/p/C5-TPsUK2u2/
     when: 20 april 2024
 
   resin-in-wood-coasters:
+    title: Resin in Wood Coasters
     description: |
       V for Vendetta? No, V for a Very important Queen V. Birthdays are a great
       excuse to experiment with new materials and techniques: Resin in wood!
-    link: https://christophe.vg/makes/Resin-in-Wood-Coasters
+    info: https://christophe.vg/makes/Resin-in-Wood-Coasters
     image: https://christophe.vg/makes/images/header/resin-in-wood-coasters.jpeg
     when: 14 march 2024
 
+  hosted-flasks:
+    kind: module
+    title: Hosted Flasks
+    description: |
+      I have [several small Flask apps](https://apps.homemadebycvg.com), which
+      don't use a lot of resources. For some time I'm enjoying the hosting
+      services of [Render](https://render.com). Their free tier is great, but
+      (understandably) "_free instances will spin down with inactivity, which
+      can delay requests by 50 seconds or more._". Their [web service
+      pricing](https://render.com/pricing#compute) is more than reasonable, yet
+      coughing up $7/month for each single little Flask app is a bit too much.
+      So, with Hosted Flasks I can simply bring them all together on a single
+      web service, which doesn't spin down.
+    run: https://apps.homemadebycvg.com
+    docs: https://hosted-flasks.readthedocs.io
+    github: christophevg/hosted-flasks
+    image: /images/hosted-flasks.png
+    pypi: hosted-flasks
+    when: 13 march 2024
+
+  letmelearn:
+    kind: app
+    title: Let me Learn
+    description: |
+      Toen Quizlet grotendeels betalend werd, en dochterlief enkele belangrijke
+      toetsen in het verschiet had, was er maar één ding dat ik kon doen...  
+      "Let me Learn!" is een online/web toepassinkje dat toelaat om op
+      verschillende manieren begrippen/woorden/... te oefenen, leren en te testen.  
+      Want wat je zelf implementeert... 😇
+    info: https://apps.homemadebycvg.com/#letmelearn
+    run: https://letmelearn.app.homemadebycvg.com
+    image: https://apps.homemadebycvg.com/hosted/images/letmelearn.png
+    when: 29 april 2023
+    github: christophevg/letmelearn
+
   wooden-globe:
+    title: Wooden Globe
     description: |
       The world is never enough for best of friends. Still, this combination of
       wood and eva foam will have to do.
-    link: https://christophe.vg/makes/Wooden-Globe
+    info: https://christophe.vg/makes/Wooden-Globe
     image: https://christophe.vg/makes/images/header/wooden-globe.jpeg
     when: 4 september 2022
+
+  howifeel:
+    kind: app
+    title: How I Feel
+    description: |
+      _Putting the dot on the i of micro social network._  
+      _Share your mood with who you want and how you want. And nothing more._  
+      How I Feel began as a "Let me show you in one hour what software
+      development really is about." and turned out to be much more...
+    info: https://apps.homemadebycvg.com/#howifeel
+    run: https://howifeel.app.homemadebycvg.com
+    image: https://apps.homemadebycvg.com/hosted/images/howifeel.png
+    when: 22 february 202
+    github: christophevg/howifeel
   
   deatomizer:
+    title: Series 4 De-Atomizer
     description: |
       A boy in black needs a decent weapon, and I need less excuses to build a
       true Series 4 De-Atomizer.
-    link: https://christophe.vg/makes/Deatomizer
+    info: https://christophe.vg/makes/Deatomizer
     image: https://christophe.vg/makes/images/header/deatomizer.jpeg
     when: 17 september 2021
   
   padel-racket:
+    title: Padel Racket
     description: |
       If padel rackets are basically made out of eva foam, this must be an ace
       for my dear old friend.
-    link: https://christophe.vg/makes/Padel-racket
+    info: https://christophe.vg/makes/Padel-racket
     image: https://christophe.vg/makes/images/header/padel-racket.jpeg
     when: 27 august 2021

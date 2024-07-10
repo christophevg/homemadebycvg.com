@@ -38,6 +38,7 @@
               <ul class="list-unstyled">
                 <li>Follow <a href="https://www.instagram.com/homemadebycvg/" target="_blank">@HomemadeByCVG</a> on Instagram.</li>
                 <li>Get the full picture on my <a href="https://christophe.vg" target="_blank">personal website</a>.</li>
+                <li>Find all apps on my <a href="https://apps.homemadebycvg.com" target="_blank">hosted flasks</a>.</li>
               </ul>
             </div>
           </div>
@@ -65,32 +66,46 @@
             {% for name, make in makes.items() %}
 
             <div class="col">
-              <div class="card shadow-sm h-100">
+              
+              <div class="card shadow-sm h-100" style="overflow:hidden">
+                
+                {% if make.kind %}
+                <div class="corner-ribbon top-right small sticky {{ make.kind }}">{{ make.kind }}</div>
+                {% endif %}
+
                 <div class="appimage"{% if make.image %} style="background-image:url('{{ make.image }}');"{% endif %}></div>
+
                 <div class="card-body">
 
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">
-                        <a href="{{ make.link }}" style="color:inherit;text-decoration:inherit"  target="_blank">
-                          Visit
-                        </a>
-                      </button>
-                      {% if make.instagram %}
-                      <button type="button" class="btn btn-sm btn-outline-secondary">
-                        <a href="{{ make.instagram }}" target="_blank">
-                          <i class="bi-instagram"></i>
-                        </a>
-                      </button>
-                      {% endif %}
-                    </div>
-                    <small class="text-body-secondary">{{ make.when }}</small>
+
+                    <h5 class="card-title">{{ make.title }}</h5>
+                    
+                    
+                    
                   </div>
                   
-                  <p class="card-text" style="margin-top:10px">{{ make.description }}</p>
+                  <h6 class="card-subtitle mb-2" style="color:#aaa">{{ make.when }}</h6>
+                  {{ make.description | safe }}
                   
                 </div>
+                <div class="card-footer">
+                  <div class="btn-group">
+                    {% for button in buttons %}
+                    {% if make[button.name] %}
+                    <button type="button" class="btn btn-sm btn-outline-secondary">
+                      <span class="d-inline-block" tabindex="{{ loop.index }}" data-bs-toggle="tooltip" title="{{ button.title }}">
+                        <a href="{{ make[button.name] }}" target="_blank">
+                            <i class="bi-{{ button.icon }}"></i>
+                        </a>
+                      </span>
+                    </button>
+                    {% endif %}
+                    {% endfor %}
+                  </div>
+                </div>
               </div>
+
             </div>
             
             {% endfor %}
@@ -102,5 +117,11 @@
     </main>
 
     <script src="/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+      })
+    </script>
   </body>
 </html>

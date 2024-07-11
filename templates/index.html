@@ -13,7 +13,6 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="black">
 
-
     <meta name="theme-color" content="#fafafa">
     <link rel="stylesheet" href="/style.css">
   </head>
@@ -27,10 +26,8 @@
             <div class="col-sm-8 col-md-7 py-4">
               <h4>About</h4>
               <p class="text-body-secondary">
-
                 CVG is an even shorter version of Christophe VG. 😇<br>
                 Homemade is my landing page, with links to things I've made.
-
               </p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
@@ -64,9 +61,7 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             
             {% for name, make in makes.items() %}
-
             <div class="col">
-              
               <div class="card shadow-sm h-100" style="overflow:hidden">
                 
                 {% if make.kind %}
@@ -76,19 +71,11 @@
                 <div class="appimage"{% if make.image %} style="background-image:url('{{ make.image }}');"{% endif %}></div>
 
                 <div class="card-body">
-
-                  <div class="d-flex justify-content-between align-items-center">
-
-                    <h5 class="card-title">{{ make.title }}</h5>
-                    
-                    
-                    
-                  </div>
-                  
+                  <h5 class="card-title">{{ make.title }}</h5>
                   <h6 class="card-subtitle mb-2" style="color:#aaa">{{ make.when }}</h6>
                   {{ make.description | safe }}
-                  
                 </div>
+
                 <div class="card-footer">
                   <div class="btn-group">
                     {% for button in buttons %}
@@ -96,7 +83,7 @@
                     <button type="button" class="btn btn-sm btn-outline-secondary">
                       <span class="d-inline-block" tabindex="{{ loop.index }}" data-bs-toggle="tooltip" title="{{ button.title }}">
                         <a href="{{ make[button.name] }}" target="_blank">
-                            <i class="bi-{{ button.icon }}"></i>
+                          <i class="bi-{{ button.icon }}"></i>
                         </a>
                       </span>
                     </button>
@@ -104,10 +91,9 @@
                     {% endfor %}
                   </div>
                 </div>
+                
               </div>
-
             </div>
-            
             {% endfor %}
 
           </div>

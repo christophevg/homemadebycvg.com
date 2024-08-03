@@ -8,7 +8,7 @@ makes:
       35 years of hardware suddenly became a city full of memories.
     info: https://christophe.vg/makes/Artware-City
     image: https://christophe.vg/makes/images/header/artware-city.jpeg
-    instagram: https://www.instagram.com/p/C82mljKA0xl/
+    instagram: https://www.instagram.com/p/C-NiSLxKsVW/
     when: 30 june 2024
 
   problem-seeker:
@@ -20,6 +20,7 @@ makes:
       am. After the "what?", I now explore the "why?".
     read: https://christophe.vg/about/Problem-Seeker
     image: https://christophe.vg/about/images/header/problem-seeker.jpeg
+    instagram: https://www.instagram.com/p/C-Nh_pUKoHm/
     when: 26 june 2024
     
   super-mario-block:
@@ -28,7 +29,7 @@ makes:
       Nobody knows what’s inside the Super Mario Question Mark Block… until you open it!
     info: https://christophe.vg/makes/Super-Mario-Question-Mark-Block
     image: https://christophe.vg/makes/images/header/super-mario-question-mark-block.jpeg
-    instagram: https://www.instagram.com/p/C5-TPsUK2u2/
+    instagram: https://www.instagram.com/p/C-Nh0tfqHq5/
     when: 20 april 2024
 
   resin-in-wood-coasters:
@@ -38,6 +39,7 @@ makes:
       excuse to experiment with new materials and techniques: Resin in wood!
     info: https://christophe.vg/makes/Resin-in-Wood-Coasters
     image: https://christophe.vg/makes/images/header/resin-in-wood-coasters.jpeg
+    instagram: https://www.instagram.com/p/C-NhlFuqw95/
     when: 14 march 2024
 
   hosted-flasks:
@@ -58,6 +60,7 @@ makes:
     github: https://github.com/christophevg/hosted-flasks
     image: /images/hosted-flasks.png
     pypi: https://pypi.org/project/hosted-flasks
+    instagram: https://www.instagram.com/p/C-Ng8c5qnqi/
     when: 13 march 2024
 
   bpmn-tools:
@@ -71,6 +74,7 @@ makes:
     github: https://github.com/christophevg/bpmn-tools
     image: /images/bpmn-tools.png
     pypi: https://pypi.org/project/bpmn-tools
+    instagram: https://www.instagram.com/p/C-NgrtUq1f7/
     when: 5 may 2023
 
   letmelearn:
@@ -84,8 +88,9 @@ makes:
       Want wat je zelf implementeert... 😇
     run: https://letmelearn.app.homemadebycvg.com
     image: https://apps.homemadebycvg.com/hosted/images/letmelearn.png
-    when: 29 april 2023
     github: https://github.com/christophevg/letmelearn
+    instagram: https://www.instagram.com/p/C-NgSawqmtn/
+    when: 29 april 2023
 
   baseweb-demo:
     kind: app
@@ -111,6 +116,7 @@ makes:
     github: https://github.com/christophevg/oatk
     image: https://apps.homemadebycvg.com/hosted/images/oatk-demo.png
     pypi: https://pypi.org/project/oatk
+    instagram: https://www.instagram.com/p/C-NgCSMK0jF/
     when: 15 october 2022
 
   wooden-globe:
@@ -120,6 +126,7 @@ makes:
       wood and eva foam will have to do.
     info: https://christophe.vg/makes/Wooden-Globe
     image: https://christophe.vg/makes/images/header/wooden-globe.jpeg
+    instagram: https://www.instagram.com/p/C-Nfm9WqX6K/
     when: 4 september 2022
 
   i-software-architect:
@@ -133,6 +140,7 @@ makes:
       software architect.
     read: https://christophe.vg/about/I-Software-Architect
     image: https://christophe.vg/about/images/header/software-architect.jpeg
+    instagram: https://www.instagram.com/p/C-NfOlCqLVF/
     when: 5 april 2021
 
   howifeel:
@@ -145,8 +153,9 @@ makes:
       development really is about." and turned out to be much more...
     run: https://howifeel.app.homemadebycvg.com
     image: https://apps.homemadebycvg.com/hosted/images/howifeel.png
-    when: 22 february 2021
     github: https://github.com/christophevg/howifeel
+    instagram: https://www.instagram.com/p/C-Ne8SnKIaP/
+    when: 22 february 2021
   
   deatomizer:
     title: Series 4 De-Atomizer
@@ -155,6 +164,7 @@ makes:
       true Series 4 De-Atomizer.
     info: https://christophe.vg/makes/Deatomizer
     image: https://christophe.vg/makes/images/header/deatomizer.jpeg
+    instagram: https://www.instagram.com/p/C-NeuDMqXJ8/
     when: 17 september 2021
   
   padel-racket:
@@ -164,6 +174,7 @@ makes:
       for my dear old friend.
     info: https://christophe.vg/makes/Padel-racket
     image: https://christophe.vg/makes/images/header/padel-racket.jpeg
+    instagram: https://www.instagram.com/p/C-NecrwKU8T/
     when: 27 august 2021
 
   baseweb:
@@ -177,6 +188,7 @@ makes:
     github: https://github.com/christophevg/baseweb
     image: https://apps.homemadebycvg.com/hosted/images/baseweb-demo.png
     pypi: https://pypi.org/project/baseweb
+    instagram: https://www.instagram.com/p/C-NeLWJqCB9/
     when: 5 february 2020
 
   pypi-template:
@@ -194,6 +206,7 @@ makes:
     github: https://github.com/christophevg/pypi-template
     image: /images/pypi-template.png
     pypi: https://pypi.org/project/pypi-template
+    instagram: https://www.instagram.com/p/C-NdxAjKtfJ/
     when: 29 october 2018
 
   pokemon-christmas-lights:
@@ -205,6 +218,7 @@ makes:
     info: https://christophe.vg/makes/Pokemon-Christmas-Lights
     image: https://christophe.vg/makes/images/header/pokemon-christmas-lights.jpeg
     github: https://github.com/christophevg/PokemonChristmasLights
+    instagram: https://www.instagram.com/p/C-NdiagKnmP/
     when: 3 december 2017
 
   no-excuses:
@@ -217,6 +231,7 @@ makes:
       quite some time now.
     read: https://christophe.vg/about/No_Excuses
     image: https://christophe.vg/about/images/header/no-excuses.png
+    instagram: https://www.instagram.com/p/C-NdSJTqcR1/
     when: 13 november 2017
 
   c3po-luisterbox:
@@ -227,6 +242,7 @@ makes:
       luisterbox.
     info: https://christophe.vg/makes/C3PO-Luisterbox
     image: https://christophe.vg/makes/images/header/c3po-luisterbox.jpeg
+    instagram: https://www.instagram.com/p/C-Nc-BDqOuv/
     when: 1 june 2017
 
   ezrpi:
@@ -238,6 +254,7 @@ makes:
     info: https://christophe.vg/makes/EZRPi
     github: https://github.com/christophevg/EZRpi
     image: https://christophe.vg/makes/images/header/ezrpi-v1.jpeg
+    instagram: https://www.instagram.com/p/C-NcnsHqVE8/
     when: 10 march 2017
 
   fri3d-badge:
@@ -252,6 +269,7 @@ makes:
     info: https://christophe.vg/makes/Fri3d-Badge
     image: https://christophe.vg/makes/images/header/fri3d-badge.jpeg
     github: https://github.com/christophevg/Fri3dBadge2016
+    instagram: https://www.instagram.com/p/C-NcL6RqC2U/
     when: 15 august 2016
 
   inspection-robot:
@@ -265,6 +283,7 @@ makes:
     info: https://christophe.vg/makes/Inspection-Robot
     github: https://github.com/christophevg/rover5
     image: https://christophe.vg/makes/images/header/inspection-robot.jpeg
+    instagram: https://www.instagram.com/p/C-NbiFRqlz6/
     when: 1 september 2015
 
   revisiting-higher-education:
@@ -277,4 +296,5 @@ makes:
       and attending courses full-time.
     read: https://christophe.vg/about/Revisiting_Higher_Education
     image: https://christophe.vg/about/images/header/education.jpg
+    instagram: https://www.instagram.com/p/C-NahGsKFLU/
     when: 1 june 2013

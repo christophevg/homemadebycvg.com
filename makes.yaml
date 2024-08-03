@@ -1,5 +1,5 @@
 makes:
-
+  
   artware-city:
     title: Artware City
     description: |
@@ -10,6 +10,17 @@ makes:
     image: https://christophe.vg/makes/images/header/artware-city.jpeg
     instagram: https://www.instagram.com/p/C82mljKA0xl/
     when: 30 june 2024
+
+  problem-seeker:
+    kind: writing
+    title: Problem Seeker
+    description: |
+      In a second part of my series of articles on my life as a software
+      architect, I dive into the foundations that define the problem seeker I
+      am. After the "what?", I now explore the "why?".
+    read: https://christophe.vg/about/Problem-Seeker
+    image: https://christophe.vg/about/images/header/problem-seeker.jpeg
+    when: 26 june 2024
     
   super-mario-block:
     title: Super Mario Question Mark Block
@@ -44,10 +55,23 @@ makes:
       web service, which doesn't spin down.
     run: https://apps.homemadebycvg.com
     docs: https://hosted-flasks.readthedocs.io
-    github: christophevg/hosted-flasks
+    github: https://github.com/christophevg/hosted-flasks
     image: /images/hosted-flasks.png
-    pypi: hosted-flasks
+    pypi: https://pypi.org/project/hosted-flasks
     when: 13 march 2024
+
+  bpmn-tools:
+    kind: module
+    title: BPMN Tools
+    description: |
+      BPMN Tools enables the generation of BPMN diagrams from Python. It
+      provides an object model and several layouting options, aswell as
+      abstracted builders.
+    docs: https://bpmn-tools.readthedocs.io
+    github: https://github.com/christophevg/bpmn-tools
+    image: /images/bpmn-tools.png
+    pypi: https://pypi.org/project/bpmn-tools
+    when: 5 may 2023
 
   letmelearn:
     kind: app
@@ -58,11 +82,36 @@ makes:
       "Let me Learn!" is een online/web toepassinkje dat toelaat om op
       verschillende manieren begrippen/woorden/... te oefenen, leren en te testen.  
       Want wat je zelf implementeert... 😇
-    info: https://apps.homemadebycvg.com/#letmelearn
     run: https://letmelearn.app.homemadebycvg.com
     image: https://apps.homemadebycvg.com/hosted/images/letmelearn.png
     when: 29 april 2023
-    github: christophevg/letmelearn
+    github: https://github.com/christophevg/letmelearn
+
+  baseweb-demo:
+    kind: app
+    title: Baseweb Demo
+    description: |
+      Baseweb is my little bit of Python serving a lot of Vuetify goodness, all
+      rolled up in a little Python Module. The baseweb-demo repository contains
+      a "demo implementation", showing off many of baseweb's features.
+    run: https://baseweb-demo.app.homemadebycvg.com/
+    github: https://github.com/christophevg/baseweb-demo
+    image: https://apps.homemadebycvg.com/hosted/images/baseweb-demo.png
+    when: 26 november 2022
+
+  oatk:
+    kind: module
+    title: OAuth ToolKit
+    description: |
+      OAuth is a standard and OAuthToolKit is my minimal implementation of some
+      aspects of it.  
+      **NOTE**: The demo app doesn't use nor store any personal information in
+      any way! Just the token is validated by the API.
+    run: https://oatk-demo.app.homemadebycvg.com/
+    github: https://github.com/christophevg/oatk
+    image: https://apps.homemadebycvg.com/hosted/images/oatk-demo.png
+    pypi: https://pypi.org/project/oatk
+    when: 15 october 2022
 
   wooden-globe:
     title: Wooden Globe
@@ -73,6 +122,19 @@ makes:
     image: https://christophe.vg/makes/images/header/wooden-globe.jpeg
     when: 4 september 2022
 
+  i-software-architect:
+    kind: writing
+    title: I, Software Architect
+    description: |
+      "Hey, Christophe, what do you do?" I get the question rather often. The
+      most correct answer, "I'm a Software Architect", benefits from a little
+      more explanation, both for most non-IT friends and some colleagues 😇.
+      This article is the first in a series of articles on my life as a
+      software architect.
+    read: https://christophe.vg/about/I-Software-Architect
+    image: https://christophe.vg/about/images/header/software-architect.jpeg
+    when: 5 april 2021
+
   howifeel:
     kind: app
     title: How I Feel
@@ -81,11 +143,10 @@ makes:
       _Share your mood with who you want and how you want. And nothing more._  
       How I Feel began as a "Let me show you in one hour what software
       development really is about." and turned out to be much more...
-    info: https://apps.homemadebycvg.com/#howifeel
     run: https://howifeel.app.homemadebycvg.com
     image: https://apps.homemadebycvg.com/hosted/images/howifeel.png
-    when: 22 february 202
-    github: christophevg/howifeel
+    when: 22 february 2021
+    github: https://github.com/christophevg/howifeel
   
   deatomizer:
     title: Series 4 De-Atomizer
@@ -104,3 +165,116 @@ makes:
     info: https://christophe.vg/makes/Padel-racket
     image: https://christophe.vg/makes/images/header/padel-racket.jpeg
     when: 27 august 2021
+
+  baseweb:
+    kind: module
+    title: Baseweb
+    description: |
+      Baseweb is my little bit of Python serving a lot of Vuetify goodness, all
+      rolled up in a little Python Module.
+    run: https://baseweb-demo.app.homemadebycvg.com/
+    docs: https://baseweb.readthedocs.io/
+    github: https://github.com/christophevg/baseweb
+    image: https://apps.homemadebycvg.com/hosted/images/baseweb-demo.png
+    pypi: https://pypi.org/project/baseweb
+    when: 5 february 2020
+
+  pypi-template:
+    kind: module
+    title: PyPi Template
+    description: |
+      To manage the [Python modules I
+      maintain](https://pypi.org/user/christophe.vg/), I created PyPi Template,
+      a set of templates to generate project/module-related files using a high
+      level of convention. Because I want to focus on the module, not its
+      maintenance 😇
+      PyPi Template provides a single setup to develop, test, document and
+      publish Python modules.
+    docs: https://pypi-template.readthedocs.io/
+    github: https://github.com/christophevg/pypi-template
+    image: /images/pypi-template.png
+    pypi: https://pypi.org/project/pypi-template
+    when: 29 october 2018
+
+  pokemon-christmas-lights:
+    title: Pokemon Christmas Lights
+    description: |
+      In december 2017 I joined in a Secret Santa event, organised by Henk
+      Reickaert, amongst others known for his fun making endeavours in the
+      Koterij.
+    info: https://christophe.vg/makes/Pokemon-Christmas-Lights
+    image: https://christophe.vg/makes/images/header/pokemon-christmas-lights.jpeg
+    github: https://github.com/christophevg/PokemonChristmasLights
+    when: 3 december 2017
+
+  no-excuses:
+    kind: writing
+    title: No Excuses
+    description: |
+      While visiting an exposition on and discussing the intersection of
+      design, technology and care in the home, I found myself once again
+      confronted with this thing that has been bothering me on and off for
+      quite some time now.
+    read: https://christophe.vg/about/No_Excuses
+    image: https://christophe.vg/about/images/header/no-excuses.png
+    when: 13 november 2017
+
+  c3po-luisterbox:
+    title: C3PO Luisterbox
+    description: |
+      In het kader van het C3PO - Collaborative City Co-design PlatfOrm
+      contacteerde Studio Dott mij voor de ontwikkeling van een interactieve
+      luisterbox.
+    info: https://christophe.vg/makes/C3PO-Luisterbox
+    image: https://christophe.vg/makes/images/header/c3po-luisterbox.jpeg
+    when: 1 june 2017
+
+  ezrpi:
+    title: EZRPi
+    description: |
+      The EZRPi is a Raspberry Pi HAT, carrying a Silicon Labs EZR32 Sub-GHz
+      wireless microcontroller (MCU), that adds subGHz radio capabilities to
+      the RPi.
+    info: https://christophe.vg/makes/EZRPi
+    github: https://github.com/christophevg/EZRpi
+    image: https://christophe.vg/makes/images/header/ezrpi-v1.jpeg
+    when: 10 march 2017
+
+  fri3d-badge:
+    title: Fri3d Badge
+    description: |
+      In 2014 Anthony and I hacked together the first edition of [Fri3d
+      Camp](https://fri3d.be), a family-friendly hacker camp. Two years later,
+      we did it again, now with a team of 8 great, like-minded souls. Besides
+      being in charge of organising the content, I also took on the job to
+      design and produce a custom Arduino badge for every one of the 299+1
+      attendees.
+    info: https://christophe.vg/makes/Fri3d-Badge
+    image: https://christophe.vg/makes/images/header/fri3d-badge.jpeg
+    github: https://github.com/christophevg/Fri3dBadge2016
+    when: 15 august 2016
+
+  inspection-robot:
+    title: Inspection Robot
+    description: |
+      In 2015 I was contracted by a very large industrial/pharmaceutical
+      company to design and implement a solution for their QA team to be able
+      to inspect certain locations in their factory that were very hard to
+      reach. The combination of a height restriction of about 12cm and the need
+      to be able to carry a sensor on a rotating arm were challenging.
+    info: https://christophe.vg/makes/Inspection-Robot
+    github: https://github.com/christophevg/rover5
+    image: https://christophe.vg/makes/images/header/inspection-robot.jpeg
+    when: 1 september 2015
+
+  revisiting-higher-education:
+    kind: writing
+    title: Revisiting Higher Education
+    description: |
+      Having decided to return to full-time studying presented me with an
+      incredible opportunity to make a personal evaluation of our education
+      system and academic institute. In the end, there are few of us - aged 40
+      and attending courses full-time.
+    read: https://christophe.vg/about/Revisiting_Higher_Education
+    image: https://christophe.vg/about/images/header/education.jpg
+    when: 1 june 2013

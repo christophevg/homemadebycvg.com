@@ -103,8 +103,9 @@ img.logo {
   right: -75px;
 }
 
-.corner-ribbon.app    { background: #39d;    }
-.corner-ribbon.module { background: #006dad; }
+.corner-ribbon.app     { background: #39d;    }
+.corner-ribbon.module  { background: #006dad; }
+.corner-ribbon.writing { background: #1b9;    }
 
 .corner-ribbon.white{background: #f0f0f0; color: #555;}
 .corner-ribbon.black{background: #333;}

@@ -27,6 +27,7 @@ Button = namedtuple("Button", "name title icon")
 
 buttons = [
   Button("info",      "get more info...",             "info-circle"),
+  Button("read",      "read it now...",               "eyeglasses"),
   Button("run",       "see it in action...",          "display"),
   Button("docs",      "read the docs...",             "book"),
   Button("pypi",      "get the module on PyPi...",    "box-seam"),

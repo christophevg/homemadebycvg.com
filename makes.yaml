@@ -1,5 +1,17 @@
 makes:
   
+  50-shades-of-ceremony:
+    kind: writing
+    title: 50 Shades of Ceremony
+    description: |
+      This is the third instalment in a triptych about me being a software
+      architect. After the **what** and the **why**, this time I show **how** I
+      deal with software architecture.
+    read: https://christophe.vg/about/50-Shades-of-Ceremony
+    image: https://christophe.vg/about/images/header/50-shades-of-ceremony.jpeg
+    instagram: https://www.instagram.com/p/C-2bmlngzxi
+    when: 19 august 2024
+  
   artware-city:
     title: Artware City
     description: |

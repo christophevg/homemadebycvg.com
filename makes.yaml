@@ -1,5 +1,16 @@
 makes:
   
+  bc-art:
+    title: B/C Art
+    description: |
+      Ever since I designed and had my concrete house constructed, I wanted to
+      create some personal concrete art pieces. So, as usual, it took a few
+      years before I allowed myself some time to start working on it.
+    info: https://christophe.vg/makes/BC-Art
+    image: https://christophe.vg/makes/images/full/bc-art/bc-art.jpeg
+    instagram: https://www.instagram.com/p/C_GCmRyqs1a
+    when: 25 august 2024
+
   50-shades-of-ceremony:
     kind: writing
     title: 50 Shades of Ceremony

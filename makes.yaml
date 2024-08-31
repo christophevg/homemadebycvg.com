@@ -1,5 +1,17 @@
 makes:
   
+  holiday-mode:
+    kind: writing
+    title: Holiday Mode
+    description: |
+      As a consulting nomad, I’m confronted with two kinds of holiday: the one
+      most of us have, a break from the busyness at work, and the
+      in-between-clients periods. And they serve different purposes...
+    read: https://christophe.vg/about/Holiday-Mode
+    image: https://christophe.vg/about/images/header/holiday-mode.jpeg
+    instagram: https://www.instagram.com/p/C_TYWoyPGx3
+    when: 27 august 2024
+
   bc-art:
     title: B/C Art
     description: |

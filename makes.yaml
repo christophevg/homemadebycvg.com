@@ -1,4 +1,18 @@
 makes:
+
+  leadership-101:
+    kind: writing
+    title: Leadership 101
+    description: |
+      Why do I believe I'm a good team lead? Of course I do, because if I
+      didn't, why would I pursue a role that is so fundamental to people, that
+      can make or break the work of others?! So, how did I come up with this
+      new direction for the next professional chapter in my life? And why does
+      it involve leadership?
+    read: https://christophe.vg/about/Leadership-101
+    image: https://christophe.vg/about/images/header/leadership.jpeg
+    instagram: https://www.instagram.com/p/C_-ZnDQKwAb
+    when: 16 september 2024
   
   holiday-mode:
     kind: writing

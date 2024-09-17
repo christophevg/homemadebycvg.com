@@ -1,4 +1,17 @@
 makes:
+  
+  getijden:
+    kind: app
+    title: Getijden
+    description: |
+      Deze getijden app, maakt de informatie gepubliceerd door het "Agentschap
+      Maritieme Dienstverlening en Kust" bruikbaar voor je persoonlijke
+      digitale kalender.
+    run: https://getijden.app.homemadebycvg.com
+    image: /images/getijden.png
+    github: https://github.com/christophevg/getijden
+    instagram: https://www.instagram.com/p/DABWjk4sgT_
+    when: 17 september 2024
 
   leadership-101:
     kind: writing

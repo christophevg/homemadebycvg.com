@@ -1,5 +1,15 @@
 makes:
   
+  enderman:
+    title: Enderman
+    description: |
+      Why? Because the Enderman can! 😇
+    info: https://christophe.vg/makes/Enderman
+    image: https://christophe.vg/makes/images/header/enderman.jpeg
+    instagram: https://www.instagram.com/p/DAeF2c-qcvX
+    thingiverse: https://www.thingiverse.com/thing:6781339
+    when: 28 september 2024
+  
   getijden:
     kind: app
     title: Getijden

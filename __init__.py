@@ -26,13 +26,14 @@ for make in config["makes"].values():
 Button = namedtuple("Button", "name title icon")
 
 buttons = [
-  Button("info",      "get more info...",             "info-circle"),
-  Button("read",      "read it now...",               "eyeglasses"),
-  Button("run",       "see it in action...",          "display"),
-  Button("docs",      "read the docs...",             "book"),
-  Button("pypi",      "get the module on PyPi...",    "box-seam"),
-  Button("github",    "browse the code on GitHub...", "github" ),
-  Button("instagram", "as seen on Instagram...",      "instagram" )
+  Button("info",        "get more info...",             "info-circle"),
+  Button("read",        "read it now...",               "eyeglasses"),
+  Button("run",         "see it in action...",          "display"),
+  Button("docs",        "read the docs...",             "book"),
+  Button("pypi",        "get the module on PyPi...",    "box-seam"),
+  Button("github",      "browse the code on GitHub...", "github" ),
+  Button("thingiverse", "try it on Thingiverse...",     "thingiverse" ),
+  Button("instagram",   "as seen on Instagram...",      "instagram" )
 ]
 
 @app.route("/")

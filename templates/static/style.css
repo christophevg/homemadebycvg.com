@@ -19,7 +19,6 @@ img.logo {
   color: white;
 }
 
-
 /*
   Ribbons
   HTML and CSS kindly remixed from great prior works:
@@ -117,3 +116,13 @@ img.logo {
 .corner-ribbon.red{background: #e43;}
 .corner-ribbon.orange{background: #e82;}
 .corner-ribbon.yellow{background: #ec0;}
+
+/* additional icons */
+
+.bi-thingiverse::before {
+  content: url("/images/icons/thingiverse.svg");
+}
+
+.bi-thingiverse:hover:before {
+  content: url("/images/icons/thingiverse-white.svg");
+}

@@ -1,9 +1,31 @@
 makes:
   
+  virtue-of-tech-agnosticism:
+    kind: writing
+    title: The Virtue of Technology Agnosticism
+    description: |
+      When I tell people that I am technology agnostic, they open their eyes a
+      little bit more. Usually something along the lines of: “But Christophe,
+      you’ve been programming longer than I’ve been alive, you have more
+      hardware devices in your home than I’ve ever heard of, and your personal
+      software development library contains books older than some papyrus in
+      the museum of ancient history. How on earth can you, of all people, be
+      technology agnostic?”  
+      And, you know, the problem is, they are right, in a way.
+    read: https://christophe.vg/about/Virtue-of-Technology-Agnosticism
+    image: https://christophe.vg/about/images/header/virtue-of-technology-agnosticism.png
+    instagram: https://www.instagram.com/p/DA2wQdxs5AX
+    when: 2 october 2024
+  
   enderman:
     title: Enderman
     description: |
-      Why? Because the Enderman can! 😇
+      Why? Because the Enderman can! 😇  
+        
+      My son, like many sons (and daughters) loves Minecraft. He especially
+      likes the Enderman. When he wanted to use the character as a base for a
+      school project, but couldn’t find a model to start from, we started
+      brainstorming.
     info: https://christophe.vg/makes/Enderman
     image: https://christophe.vg/makes/images/header/enderman.jpeg
     instagram: https://www.instagram.com/p/DAeF2c-qcvX

@@ -1,5 +1,28 @@
 makes:
   
+  nation-of-positivity:
+    title: Nation of Positivity
+    description: |
+      Bij Nation of Positivity vind je veel kleine leuke cadeautjes. Allemaal
+      gepersonaliseerd en bedoeld om jouw positiviteit aan iemand anders te
+      geven.
+
+      Velen van jullie hebben de afgelopen jaren al een klein extraatje van mij
+      gekregen. Ze waren altijd zelfgemaakt, gepersonaliseerd, uniek voor jou.
+      Het was leuk om de soms wat verbaasde, maar altijd vooral heel dankbare
+      reacties te zien. Want we hoeven niet allemaal een raket naar Mars te
+      lanceren. Soms begint een beetje positiviteit gewoon bij jou en mij.
+
+      Met Nation of Positivity bied ik mijn atelier en mijn eigen werk aan in
+      een kleine online shop; mijn bescheiden initiatief, mijn
+      spreekwoordelijke duit in het zakje. Met liefde gemaakt om met heel veel
+      liefde te kunnen geven. Samen zorgen we voor een beetje meer positiviteit
+      in de wereld.
+    run: https://nationofpositivity.com
+    image: https://christophe.vg/about/images/banner/cv-nationofpositivity.png
+    instagram: https://www.instagram.com/NationOfPositivity
+    when: 28 oktober 2024
+  
   virtue-of-tech-agnosticism:
     kind: writing
     title: The Virtue of Technology Agnosticism

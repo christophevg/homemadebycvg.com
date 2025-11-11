@@ -1,5 +1,18 @@
 makes:
-  
+
+  coffin-gift-box:
+    title: Coffin Gift Box
+    description: |
+      It doesn’t always require rocket science to make a gift more personal. Sometimes, a little attention to the wrapping can make all the difference.
+
+      I happen to have a friend who is absolutely obsessed with Halloween. She has more Halloween decorations than all Belgian amusement parks combined. No, I’m not exaggerating! 🎃
+
+      When she organized a Halloween party at her house this year, I couldn’t resist bringing a gift. Over the past few years, I’ve regularly been making personalized and custom gift wrapping on several occasions. So, what better gift than a coffin for a Halloween party present?! 💀
+    info: https://christophe.vg/makes/Coffin-Gift-Box
+    image: https://christophe.vg/makes/images/header/coffin-gift-box.jpeg
+    instagram: https://www.instagram.com/p/DQ7h5bGDM2K
+    when: 31 october 2025
+
   formula-of-architecture:
     kind: writing
     title: The Formula of Architecture
@@ -8,7 +21,7 @@ makes:
       success? Are you equipped with the required processes, the right people,
       information, and technology? Or at the very least, do you have a clear
       understanding of what these elements are, or even what they should be?
-      
+
       With the Formula of Architecture, I’ve finally articulated my perspective
       on capabilities and their appropriate interpretation within the context
       of Enterprise Architecture. I’ve also explored their internal structure
@@ -16,8 +29,8 @@ makes:
     read: https://christophe.vg/about/Formula-of-Architecture
     image: https://christophe.vg/about/images/header/formula-of-architecture.png
     instagram: https://www.instagram.com/p/DKhwfP2I3bH
-    when: 5 june 2025    
-  
+    when: 5 june 2025
+
   nation-of-positivity:
     title: Nation of Positivity
     description: |
@@ -40,7 +53,7 @@ makes:
     image: https://christophe.vg/about/images/banner/cv-nationofpositivity.png
     instagram: https://www.instagram.com/NationOfPositivity
     when: 28 oktober 2024
-  
+
   virtue-of-tech-agnosticism:
     kind: writing
     title: The Virtue of Technology Agnosticism
@@ -51,18 +64,18 @@ makes:
       hardware devices in your home than I’ve ever heard of, and your personal
       software development library contains books older than some papyrus in
       the museum of ancient history. How on earth can you, of all people, be
-      technology agnostic?”  
+      technology agnostic?”
       And, you know, the problem is, they are right, in a way.
     read: https://christophe.vg/about/Virtue-of-Technology-Agnosticism
     image: https://christophe.vg/about/images/header/virtue-of-technology-agnosticism.png
     instagram: https://www.instagram.com/p/DA2wQdxs5AX
     when: 2 october 2024
-  
+
   enderman:
     title: Enderman
     description: |
-      Why? Because the Enderman can! 😇  
-        
+      Why? Because the Enderman can! 😇
+
       My son, like many sons (and daughters) loves Minecraft. He especially
       likes the Enderman. When he wanted to use the character as a base for a
       school project, but couldn’t find a model to start from, we started
@@ -72,7 +85,7 @@ makes:
     instagram: https://www.instagram.com/p/DAeF2c-qcvX
     thingiverse: https://www.thingiverse.com/thing:6781339
     when: 28 september 2024
-  
+
   getijden:
     kind: app
     title: Getijden
@@ -99,7 +112,7 @@ makes:
     image: https://christophe.vg/about/images/header/leadership.jpeg
     instagram: https://www.instagram.com/p/C_-ZnDQKwAb
     when: 16 september 2024
-  
+
   holiday-mode:
     kind: writing
     title: Holiday Mode
@@ -134,12 +147,12 @@ makes:
     image: https://christophe.vg/about/images/header/50-shades-of-ceremony.jpeg
     instagram: https://www.instagram.com/p/C-2bmlngzxi
     when: 19 august 2024
-  
+
   artware-city:
     title: Artware City
     description: |
       Welcome to Artware City! Stroll down Memory Lane, right onto Hard Disk
-      Drive.  
+      Drive.
       35 years of hardware suddenly became a city full of memories.
     info: https://christophe.vg/makes/Artware-City
     image: https://christophe.vg/makes/images/header/artware-city.jpeg
@@ -157,7 +170,7 @@ makes:
     image: https://christophe.vg/about/images/header/problem-seeker.jpeg
     instagram: https://www.instagram.com/p/C-Nh_pUKoHm/
     when: 26 june 2024
-    
+
   super-mario-block:
     title: Super Mario Question Mark Block
     description: |
@@ -217,9 +230,9 @@ makes:
     title: Let me Learn
     description: |
       Toen Quizlet grotendeels betalend werd, en dochterlief enkele belangrijke
-      toetsen in het verschiet had, was er maar één ding dat ik kon doen...  
+      toetsen in het verschiet had, was er maar één ding dat ik kon doen...
       "Let me Learn!" is een online/web toepassinkje dat toelaat om op
-      verschillende manieren begrippen/woorden/... te oefenen, leren en te testen.  
+      verschillende manieren begrippen/woorden/... te oefenen, leren en te testen.
       Want wat je zelf implementeert... 😇
     run: https://letmelearn.app.homemadebycvg.com
     image: https://apps.homemadebycvg.com/hosted/images/letmelearn.png
@@ -244,7 +257,7 @@ makes:
     title: OAuth ToolKit
     description: |
       OAuth is a standard and OAuthToolKit is my minimal implementation of some
-      aspects of it.  
+      aspects of it.
       **NOTE**: The demo app doesn't use nor store any personal information in
       any way! Just the token is validated by the API.
     run: https://oatk-demo.app.homemadebycvg.com/
@@ -282,8 +295,8 @@ makes:
     kind: app
     title: How I Feel
     description: |
-      _Putting the dot on the i of micro social network._  
-      _Share your mood with who you want and how you want. And nothing more._  
+      _Putting the dot on the i of micro social network._
+      _Share your mood with who you want and how you want. And nothing more._
       How I Feel began as a "Let me show you in one hour what software
       development really is about." and turned out to be much more...
     run: https://howifeel.app.homemadebycvg.com
@@ -291,7 +304,7 @@ makes:
     github: https://github.com/christophevg/howifeel
     instagram: https://www.instagram.com/p/C-Ne8SnKIaP/
     when: 22 february 2021
-  
+
   deatomizer:
     title: Series 4 De-Atomizer
     description: |
@@ -301,7 +314,7 @@ makes:
     image: https://christophe.vg/makes/images/header/deatomizer.jpeg
     instagram: https://www.instagram.com/p/C-NeuDMqXJ8/
     when: 17 september 2021
-  
+
   padel-racket:
     title: Padel Racket
     description: |

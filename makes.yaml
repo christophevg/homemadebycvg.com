@@ -1,5 +1,113 @@
 makes:
 
+  dawn-of-the-agents:
+    kind: writing
+    title: Dawn of the Agents
+    description: |
+      With Dawn of the Agents, the threefold series comes to a conclusion. After exploring the agentic world in Hello Agents and exploring the properties and components of agentic workflows in We are Agent, I now take a step back and take a look at the consequences.
+
+      What is the impact on us, humans? How can and should we respond to these newfound superpowers? Foremost I see an enormous opportunity to seize back control we lost over the past decades.
+    read: https://christophe.vg/about/Dawn-of-the-Agents
+    image: https://christophe.vg/about/images/header/dawn-of-the-agents.png
+    instagram: https://www.instagram.com/p/DcA05ObjJ3T
+    when: 12 august 2026
+
+  we-are-agent:
+    kind: writing
+    title: We are Agent
+    description: |
+      We are Agent is the second article in the series that began with Hello Agents. In this second installment, I do a deep dive into agents and the underlying large language models. I use simple analogies and battlefield stories to illustrate their remarkable capabilities, as well as the challenges that lie ahead on the agentic path.
+
+      To fully harness these possibilities, I present an agentic workflow, outlining its properties and components.
+    read: https://christophe.vg/about/We-are-Agent
+    image: https://christophe.vg/about/images/header/we-are-agent.png
+    instagram: https://www.instagram.com/p/DcA0yzhjNEW
+    when: 12 august 2026
+
+  hello-robots:
+    kind: writing
+    title: Hello Agents
+    description: |
+      Hello Agents is the first article in a series of three, revisiting a four-month period in 2026 when I embarked on an agentic journey into the vast realm of artificial intelligence, with a particular focus on agents.
+
+      This first part of the series sets the stage for my agentic awakening. It introduces my initial encounters with agents, ranging from single prompts to a multi-agent setup with a self-evolving agentic workflow. It also explores the need for greater control over these very capable, yet also unbridled interns.
+    read: https://christophe.vg/about/Hello-Agents
+    image: https://christophe.vg/about/images/header/hello-agents.png
+    instagram: https://www.instagram.com/p/DcA0s-JjCIl
+    when: 12 august 2026
+
+  yoker-assistant:
+    kind: module
+    title: Yoker Assistant
+    description: |
+      Yoker Assistant is a showcase and tutorial project that demonstrates how Yoker enables the creation of fully autonomous, standalone agentic packages. Simply run `uvx yoker-assistant`, and your personal assistant will respond to your emails with contextualized actions and self-learning behavior.
+    docs: https://yoker-assistant.readthedocs.io
+    github: https://github.com/christophevg/yoker-assistant
+    image: /images/yoker-assistant.png
+    pypi: https://pypi.org/projects/yoker-assistant
+    instagram: https://www.instagram.com/p/DcA0iy-DLga
+    when: 12 august 2026
+
+  yoker-writing-assistant:
+    kind: module
+    title: Yoker Writing Assistant
+    description: |
+      Yoker Writing Assistant showcases the simplicity of bundling an agent, skills, and tools into a standalone agentic package. Launching it with `uvx yoker-writing-assistant` immediately transports you into a standard Yoker interactive chat. Or used it as a standard plugin in your normal Yoker sessions. The writing assistant is prepared to provide support and guidance throughout your writing process. Do note that it will never write for you!
+    docs: https://yoker-writing-assistant.readthedocs.io
+    github: https://github.com/christophevg/yoker-writing-assistant
+    image: /images/yoker-writing-assistant.png
+    pypi: https://pypi.org/projects/yoker-writing-assistant
+    instagram: https://www.instagram.com/p/DcA0diQjCRO
+    when: 11 august 2026
+
+  clevis:
+    kind: module
+    title: Clevis
+    description: |
+      Clevis is a Python module that combines several excellent existing modules and provides a structured approach to creating a one-time configuration management setup that I can reuse across my projects. It’s a prime example of standing on the shoulders of giants, effectively implementing convention over configuration to... configuration itself 😇
+    docs: https://clevis.readthedocs.io
+    github: https://github.com/christophevg/clevis
+    image: /images/clevis.png
+    pypi: https://pypi.org/projects/clevis
+    instagram: https://www.instagram.com/p/DcA0WPwjOpx
+    when: 30 may 2026
+
+  simple-email-gw:
+    kind: module
+    title: Simple Email Gateway
+    description: |
+      I could have spent hours digging through the documentation of various IMAP, SMTP, and MCP Python packages, searching for the most suitable ones. Alternatively, I could have simply requested my code agent to construct a package using the best-of-breed Python packages available. Within a few minutes, Simple Email Gateway was ready, providing me with a user-friendly MCP server that facilitates interaction with both IMAP and SMTP servers. It’s a Simple ... Gateway ... to ... email.
+    docs: https://simple-email-gw.readthedocs.io
+    github: https://github.com/christophevg/simple-email-gw
+    image: /images/simple-email-gw.png
+    pypi: https://pypi.org/projects/simple-email-gw
+    instagram: https://www.instagram.com/p/DcA0PcnjNe2
+    when: 7 may 2026
+
+  yoker:
+    kind: module
+    title: Yoker
+    description: |
+      In March 2026, I decided to dedicate some time to research AI and agents in particular. Frustrated by the limitations of Claude Code, my coding agent harness at that time, I started the creation of Yoker, a Python-first agent harness framework.
+
+      Yoker is built on a foundation of complete transparency and openness, allowing it to be used in various applications and modes. After approximately four months of development, Yoker’s chat implementation has completely replaced all other coding harnesses on my MacBook. As a result, I am now able to conduct the experiments I had initially envisioned, simply by issuing `uvx yoker`.
+    info: http://yoker.dev
+    docs: https://yoker.readthedocs.io
+    github: https://github.com/christophevg/yoker
+    image: /images/yoker.png
+    pypi: https://pypi.org/projects/yoker
+    instagram: https://www.instagram.com/p/DcAz9ySjFB7
+    when: 17 april 2026
+
+  c3:
+    title: Christophe's Agentic Collective
+    description: |
+      While researching AI and agentic workflows, I started growing my own collective of agents. Today the team consists of roughly 12 agents, about 60 skills and several tools. Initially they were compatible with Claude Code. But since Yoker has taken that spot, I'm migrating and improving C3. Sorry 😇
+    github: https://github.com/christophevg/c3
+    image: /images/c3.png
+    instagram: https://www.instagram.com/p/DcAz0fQjAYO
+    when: 25 march 2026
+
   vonken-op-het-witte-doek:
     title: Vonken op het witte doek
     description: |

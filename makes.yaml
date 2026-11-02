@@ -210,7 +210,7 @@ makes:
       Deze getijden app, maakt de informatie gepubliceerd door het "Agentschap
       Maritieme Dienstverlening en Kust" bruikbaar voor je persoonlijke
       digitale kalender.
-    run: https://getijden.app.homemadebycvg.com
+    run: https://getijden.homemadebycvg.com
     image: /images/getijden.png
     github: https://github.com/christophevg/getijden
     instagram: https://www.instagram.com/p/DABWjk4sgT_
@@ -351,7 +351,7 @@ makes:
       "Let me Learn!" is een online/web toepassinkje dat toelaat om op
       verschillende manieren begrippen/woorden/... te oefenen, leren en te testen.
       Want wat je zelf implementeert... 😇
-    run: https://letmelearn.app.homemadebycvg.com
+    run: https://letmelearn.homemadebycvg.com
     image: https://apps.homemadebycvg.com/hosted/images/letmelearn.png
     github: https://github.com/christophevg/letmelearn
     instagram: https://www.instagram.com/p/C-NgSawqmtn/
@@ -364,7 +364,7 @@ makes:
       Baseweb is my little bit of Python serving a lot of Vuetify goodness, all
       rolled up in a little Python Module. The baseweb-demo repository contains
       a "demo implementation", showing off many of baseweb's features.
-    run: https://baseweb-demo.app.homemadebycvg.com/
+    run: https://baseweb-demo.homemadebycvg.com/
     github: https://github.com/christophevg/baseweb-demo
     image: https://apps.homemadebycvg.com/hosted/images/baseweb-demo.png
     when: 26 november 2022
@@ -377,7 +377,7 @@ makes:
       aspects of it.
       **NOTE**: The demo app doesn't use nor store any personal information in
       any way! Just the token is validated by the API.
-    run: https://oatk-demo.app.homemadebycvg.com/
+    run: https://oatk-demo.homemadebycvg.com/
     github: https://github.com/christophevg/oatk
     image: https://apps.homemadebycvg.com/hosted/images/oatk-demo.png
     pypi: https://pypi.org/project/oatk
@@ -416,7 +416,7 @@ makes:
       _Share your mood with who you want and how you want. And nothing more._
       How I Feel began as a "Let me show you in one hour what software
       development really is about." and turned out to be much more...
-    run: https://howifeel.app.homemadebycvg.com
+    run: https://howifeel.homemadebycvg.com
     image: https://apps.homemadebycvg.com/hosted/images/howifeel.png
     github: https://github.com/christophevg/howifeel
     instagram: https://www.instagram.com/p/C-Ne8SnKIaP/
@@ -448,7 +448,7 @@ makes:
     description: |
       Baseweb is my little bit of Python serving a lot of Vuetify goodness, all
       rolled up in a little Python Module.
-    run: https://baseweb-demo.app.homemadebycvg.com/
+    run: https://baseweb-demo.homemadebycvg.com/
     docs: https://baseweb.readthedocs.io/
     github: https://github.com/christophevg/baseweb
     image: https://apps.homemadebycvg.com/hosted/images/baseweb-demo.png
